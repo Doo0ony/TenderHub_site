@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tender Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <script src="script.js"></script>
+    <nav>
+        <div class="nav-logo">
+            <a href="index.html">
+                <img src="image/Без-имени-2.png">
+            </a>
+        </div>
+
+        <ul class="nav-link">
+            <li class="link"><a href="#tender" id="one">Тендеры</a></li>
+            <li class="link"><a href="#platform">О платформе</a></li>
+            <li class="link"><a href="myzakup.html">Мои закупки</a></li>
+            <li class="link"><a href="contact.html">Контакты</a></li>
+        </ul>
+            <a class="telegram-icon" href="https://t.me/TenderHub703_bot">
+            <img src="image/icons8-telegram-50.png" alt="">
+            </a>
+    </nav>
+
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h1>Все тендеры <span>Кыргызстана</span> на одной платформе</h1>
+            <div class="circles">
+                <div class="circle-1">
+                    <i class="fa-solid fa-calendar-minus"></i>
+                    <h3>+323</h3>
+                    <p>тендеров ежедневно</p>
+                </div>
+                <div class="circle-2">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h3>+7 321</h3>
+                    <p>закупающих организации</p>
+                </div>
+                <div class="circle-3">
+                    <i class="fa-solid fa-list"></i>
+                    <h3>+50</h3>
+                    <p>отраслей</p>
+                </div>
+            </div>
+            <div class="cube-info">
+                <div class="block-1">
+                    <div class="block-1-wrapper1">
+                        <p>найдено тендеров</p>
+                        <h4>603</h4>
+                    </div>
+                    <div class="block-1-wrapper2">
+                        <p> на общую сумму (сом)</p>
+                        <h4> 1 324 923 142</h4>
+                    </div>       
+                </div>
+                <div class="line">
+
+                </div>
+                <div class="block-2">
+                    <form action="notfound.html"><button class="btn">попробовать</button></form>
+                    
+                    <p>7 дней бесплатно</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="content-2" id="tender">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h1>Тендеры</h1>
+            <div class="tender-boxes">
+                <div class="tender-box">
+                    <div class="theme-icon">
+                        <h4>Проект "Секвестрация углерода посредством климатических 
+                            инвестиций в леса и пастбища в КР"</h4>
+                        <i class="fa-solid fa-bars" onclick="openModal()"></i>   
+                    </div>
+                    <p>897 522</p>
+                    <p class="date">13 ноября 2023</p>
+                    <span id="h" class="hours"></span>
+                    <span id="m" class="minutes"></span>
+                    <span id="s" class="secunds"></span>
+                </div>
+                <div class="tender-box">
+                    <div class="theme-icon">
+                        <h4>Талас району Бердике Баатыр айылдык округдук кенешинин " Бердике баатыр айылдык окмоту</h4>
+                        <i class="fa-solid fa-bars" onclick="openModal2()"></i>   
+                    </div>
+                    <p>138 000</p>
+                    <p class="date">15 ноября 2023</p>
+                </div>
+                <div class="tender-box">
+                    <div class="theme-icon">
+                        <h4>Учреждение "Шекерский айыл окмоту" Шекерского айыльного аймака Кара-Бууринского района</h4>
+                        <i class="fa-solid fa-bars" onclick="openModal3()"></i>   
+                    </div>
+                    <p>1 324 220</p>
+                    <p class="date">14 ноября 2023</p>
+                </div>
+            </div>
+            <div class="modal" id="modal">
+                <div class="half-1">
+                    <h2>Наименование закупки:</h2>
+                    <p>МЕДИА КОМПАНИИ ДЛЯ ПРОВЕДЕНИЯ ШИРОКОЙ ИНФОРМАЦИОННОЙ КАМПАНИИ ПО ПРОДВИЖЕНИЮ ИДЕИ ПРОЕКТА «СЕКВЕСТРАЦИЯ УГЛЕРОДА ПОСРЕДСТВОМ КЛИМАТИЧЕСКИХ ИНВЕСТИЦИЙ В ЛЕСА И ПАСТБИЩА В КЫРГЫЗСКОЙ РЕСПУБЛИКЕ (CS-FOR)»</p>
+                </div>
+                <div class="half-2">
+                    <h2>Формат закупок</h2>
+                    <p>Стандартный</p>
+                </div>
+                <div class="half-3">
+                    <h2>Планируемая сумма</h2>
+                    <p>897 522 сом</p>
+                </div>
+                <div class="half-4">
+                    <h2>Дата публикации</h2>
+                    <p>04 ноября 2023 13:55</p>
+                </div>
+                <div class="half-5">
+                    <h2>Срок подачи предложений поставщиков</h2>
+                    <p>13 ноября 2023 09:00</p>
+                </div>
+                <i class="fa-solid fa-xmark" onclick="closeModal()"></i>
+            </div>
+            <div class="modal" id="modal-2">
+                <div class="half-1">
+                    <h2>Наименование закупки:</h2>
+                    <p>Покупка угля марки "Д" класса для СШ.</p>
+                </div>
+                <div class="half-2">
+                    <h2>Формат закупок</h2>
+                    <p>Стандартный</p>
+                </div>
+                <div class="half-3">
+                    <h2>Планируемая сумма</h2>
+                    <p>138 000 сом</p>
+                </div>
+                <div class="half-4">
+                    <h2>Дата публикации</h2>
+                    <p>04 ноября 2023 17:42</p>
+                </div>
+                <div class="half-5">
+                    <h2>Срок подачи предложений поставщиков</h2>
+                    <p>15 ноября 2023 10:00</p>
+                </div>
+                <i class="fa-solid fa-xmark" onclick="closeModal2()"></i>
+            </div>
+            <div class="modal" id="modal-3">
+                <div class="half-1">
+                    <h2>Наименование закупки:</h2>
+                    <p>Закупка вычислительной техники на 2023 год</p>
+                </div>
+                <div class="half-2">
+                    <h2>Формат закупок</h2>
+                    <p>Стандартный</p>
+                </div>
+                <div class="half-3">
+                    <h2>Планируемая сумма</h2>
+                    <p>1 324 220 сом</p>
+                </div>
+                <div class="half-4">
+                    <h2>Дата публикации</h2>
+                    <p>04 ноября 2023 13:17</p>
+                </div>
+                <div class="half-5">
+                    <h2>Срок подачи предложений поставщиков</h2>
+                    <p>14 ноября 2023 13:36</p>
+                </div>
+                <i class="fa-solid fa-xmark" onclick="closeModal3()"></i>
+            </div>
+            
+        </div>
+        <div class="content-3" id="platform">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <div class="text-info">
+                <h1>TenderHub</h1>
+                <h3>Обширная база данных: Предоставление доступа к широкой базе государственных закупок</h3>
+                <form action="notfound.html"><button class="btn">попробовать</button></form>
+                <button class="btn">связаться с нами</button>
+            </div>
+            <div class="photo">
+                <img src="image/Data-Management-(7).png">
+            </div>
+        </div>
+    </header>
+    <footer class="container">
+        <div class="footer-content">
+            <div class="footer-block-1">
+                <div class="nav-logo">
+                    <a href="#">
+                        <img src="image/Без-имени-2.png">
+                    </a>
+                </div>
+                <p>  платформа государственных закупок</p>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="footer-block-2">
+                <p><i class="fa-solid fa-phone"></i>+996 700 300 300</p>
+                <p><i class="fa-solid fa-message"></i>+996 550 550 550</p>
+                <p><i class="fa-solid fa-envelope"></i>office@tenderhub.kg</p>
+            </div>
+
+        </div>
+
+    </footer>
+    
+</body>
+</html>
